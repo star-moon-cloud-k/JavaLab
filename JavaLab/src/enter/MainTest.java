@@ -10,5 +10,11 @@ class MainTest {
 
         J007ObjectOriented3.Geo geo2 = geo1;
         System.out.printf("위도 : %f , 경도 : %f\n" , geo2.getLatitude(), geo2.getLongitude());
+
+        J007ObjectOriented4.Geo geo3 = new J007ObjectOriented4.Geo();
+        System.out.printf("위도 : %f , 경도 : %f\n", geo3.getLatitude() ,geo3.getLongitude());
+
+        J007ObjectOriented4.Geo geo4 = geo3;
+        System.out.printf("위도 : %f , 경도 : %f\n", geo4.getLatitude() ,geo4.getLongitude());
     }
 }
