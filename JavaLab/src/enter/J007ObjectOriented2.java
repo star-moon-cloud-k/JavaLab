@@ -4,7 +4,7 @@ package enter;
 /*
 * 은닉화와 접근 제한자
 * */
-public class J007ObjectOriented_2 {
+public class J007ObjectOriented2 {
     public class Geo {
         private double latitude;        //외주에 노출되지 않는다.
         private double longitude;
