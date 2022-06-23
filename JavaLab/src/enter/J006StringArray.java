@@ -1,7 +1,7 @@
 package enter;
 
 public class J006StringArray {
-    public static void main(String[] args){
+    public static void main(){
         String city1 = "Asia";  //문자열
         String city2 = "Europe";
         city2 = city1;          //값이 복사되므로 city2 = "Asia"
