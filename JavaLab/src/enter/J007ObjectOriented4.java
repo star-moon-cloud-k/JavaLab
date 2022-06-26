@@ -11,6 +11,7 @@ public class J007ObjectOriented4 {
         }
         public Geo() {
             /*  기본 생성자  */
+            this(37.5 , 127.0);  //기본으로 생성
         }
         public double getLatitude(){        //getter
             return latitude;
