@@ -1,4 +1,4 @@
-package enter;
+package enter.J007;
 
 public class J007ObjectOriented4 {
     public static class Geo{

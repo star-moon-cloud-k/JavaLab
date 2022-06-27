@@ -1,4 +1,4 @@
-package enter;
+package enter.J007;
 
 /*
 자주 쓰이는 패키지

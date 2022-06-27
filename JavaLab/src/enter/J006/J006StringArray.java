@@ -1,4 +1,4 @@
-package enter;
+package enter.J006;
 
 public class J006StringArray {
     public static void main(){

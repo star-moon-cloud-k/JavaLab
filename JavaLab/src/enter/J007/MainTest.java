@@ -1,4 +1,6 @@
-package enter;
+package enter.J007;
+
+import enter.J006.J006StringArray;
 
 class MainTest {
     public static void main(String[] args) {
