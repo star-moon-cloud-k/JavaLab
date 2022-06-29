@@ -37,17 +37,17 @@ public class JTryCatch {
     public abstract class Writer implements Appendable, Closeable , Flushable {}
 
     public void main(String[] args){
-        try(BufferedReader reader =
-                new BufferedReader(new FileReader(file))){
-
-        }catch (Exception ex){}
-
-        try(BufferedWriter writer =
-                new BufferedWriter(new FileWriter(file))){
-            writer.write(msg);
-        }catch (IOException ex){
-            System.out.println(ex);
-        }
+//        try(BufferedReader reader =
+//                new BufferedReader(new FileReader(file))){
+//
+//        }catch (Exception ex){}
+//
+//        try(BufferedWriter writer =
+//                new BufferedWriter(new FileWriter(file))){
+//            writer.write(msg);
+//        }catch (IOException ex){
+//            System.out.println(ex);
+//        }
     }
 
 }
