@@ -1,2 +1,5 @@
-package DesignPattern.observerPattern;public interface Observer {
+package DesignPattern.observerPattern;
+
+public interface Observer {
+    public void update(float temp , float humidity, float pressure);
 }
