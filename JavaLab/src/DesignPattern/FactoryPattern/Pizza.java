@@ -1,21 +1,21 @@
 package DesignPattern.FactoryPattern;
 
+import DesignPattern.FactoryPattern.entity.*;
+
 import java.util.ArrayList;
 
 public abstract class Pizza {
-    String name;
-    String dough;
-    String sauce;
-    ArrayList toppings = new ArrayList();
-    public void prepare() {
-        System.out.println("Prepareing" + name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding sauce...");
-        System.out.println("Adding toppings: ");
-        for (int i = 0; i < toppings.size(); i++) {
-            System.out.println("   " + toppings.get(i));
-        }
-    }
+    protected String name;
+    protected Dough dough;
+    protected Sauce sauce;
+
+    Veggies veggies[];
+    Cheese cheese;
+    Pepperoni pepperoni;
+    Clams clams;
+    protected ArrayList toppings = new ArrayList();
+    protected abstract void prepare();
+
 
     public void bake() {
         System.out.println("Bake for 25 minutes at 350");
@@ -30,5 +30,9 @@ public abstract class Pizza {
     }
     public String getName(){
         return name;
+    }
+
+    public void setName(String name) {
+        this.name= name;
     }
 }

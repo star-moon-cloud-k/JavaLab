@@ -1,4 +1,7 @@
-package DesignPattern.FactoryPattern;
+package DesignPattern.FactoryPattern.chicago;
+
+import DesignPattern.FactoryPattern.Pizza;
+import DesignPattern.FactoryPattern.PizzaStore;
 
 public class ChicagoPizzaStore extends PizzaStore {
     @Override

@@ -1,4 +1,6 @@
-package DesignPattern.FactoryPattern;
+package DesignPattern.FactoryPattern.chicago;
+
+import DesignPattern.FactoryPattern.Pizza;
 
 public class ChicagoStyleCheesePizza extends Pizza {
     public ChicagoStyleCheesePizza(){
@@ -7,6 +9,11 @@ public class ChicagoStyleCheesePizza extends Pizza {
         sauce = "Plum Tomato Sauce";
 
         toppings.add("Shredded Mozzarella Cheese");
+    }
+
+    @Override
+    protected void prepare() {
+
     }
 
     @Override
